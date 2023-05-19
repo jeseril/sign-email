@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primary-font);
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Ultra', serif;
+  --primary-color: #268C5C;
+  --secondary-color: #88BF90;
+  --tertiary-color: #365E4B;
+  --minium-font-size:1.6rem;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-family: var(--primary-font);
+  font-size: var(--minium-font-size);
+  color: var(--primary-color);
+}
+
+.firma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.circulo{    
+    width: 11rem;
+    height: 11rem;
+    overflow: hidden;
+
+  }
+.circulo img{
+    object-fit: cover;
+    width: 11rem;
+    border-radius: 50%;
+
+  }
+
+  .vertical-line {
+    border-left: 0.25rem solid var(--primary-color);
+    height: 7rem;
+    border-radius: 1rem;
+  }
+
+.informacion {
+    padding-left: 2rem;
+  }
+.enlaces{
+display: flex;
+flex-direction: column;
+}
+  
+a{
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  
+  
+}
+  a img{
+    height: 2rem;
+    width: 2rem;
+  }
+
+  a p{
+    margin-left: 1rem;
+  }
+  
+  .nombre {
+   font-family: 'Ultra',serif;
+   font-size: 3rem;
+   color: var(--secondary-color);
+  }
+  .titulo{
+    font-weight: bold;
+  }
+  
+  p {
+    margin: 2px 0;
+  }
+  
